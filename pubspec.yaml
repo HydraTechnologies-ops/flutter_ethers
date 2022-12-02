@@ -1,0 +1,20 @@
+name: flutter_ethers
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+homepage: https://pub.dev/documentation/ethers
+repository: https://github.com/HydraIndustriesOfficial/flutter-ethers
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  web3dart: ^2.4.1
+  ens_dart: ^1.0.0
+  provider: ^6.0.4
+  bip39: ^1.0.6
+  decimal: ^2.3.0
+  bip32: ^2.0.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
