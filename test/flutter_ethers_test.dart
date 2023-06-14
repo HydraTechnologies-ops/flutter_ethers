@@ -5,8 +5,8 @@ final provider = ethers.providers.jsonRpcProvider();
 
 void main() {
   test('Flutter Ethers', () async {
-    // final blockNumber = await provider.getBlockNumber();
-    // expect(blockNumber, isNot(0));
+    final blockNumber = await provider.getBlockNumber();
+    expect(blockNumber, isNot(0));
   });
 
   test('Querying the Blockchain', () async {
