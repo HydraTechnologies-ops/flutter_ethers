@@ -68,5 +68,4 @@ abstract class Signer {
   }
 
   // Future<Uint8List> signTransaction() async {}
-
 }
