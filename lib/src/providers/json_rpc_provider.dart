@@ -1,7 +1,7 @@
 import 'package:flutter_ethers/src/json_rpc.dart' as json_rpc_package;
-import 'package:flutter_ethers/src/providers/json_rpc_provider.dart' as provider_package;
+// import 'package:flutter_ethers/src/providers/json_rpc_provider.dart' as provider_package;
 import 'package:http/http.dart';
-import 'dart:convert';
+// import 'dart:convert';
 
 // 🌎 Project imports:
 import 'package:flutter_ethers/src/crypto/formatting.dart';
@@ -28,11 +28,7 @@ class JsonRpcProvider extends Provider {
   Future<void> detectNetwork() async {
     try {
       final response = await _jsonRPC.call('net_version', []);
-      if (response != null) {
-        print('Network ID: $response');
-      } else {
-        print('Failed to detect network');
-      }
+      print('Network ID: $response');
     } catch (e) {
       print('Error detecting network: $e');
     }
