@@ -1,15 +1,20 @@
 ## 1.0.0
 
-- Initial version.
+- Initial release.
 
 ## 1.0.1
 
-- Changed package information to comply with dart file conventions.
+- Updated package information to comply with Dart file conventions.
 
 ## 1.0.2
 
-- Upgraded dependencies for compliance.
+- Upgraded dependencies to ensure compatibility and compliance.
 
 ## 1.0.3
 
-- Upgraded dependencies/Adjust JsonRpcProvider
+- Further upgraded dependencies.
+- Adjusted `JsonRpcProvider` for improved functionality.
+
+## 1.1.0
+
+- Upgraded Flutter SDK to the latest version for enhanced performance and compatibility.

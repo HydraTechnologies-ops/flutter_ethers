@@ -15,7 +15,8 @@ void main() {
     expect(blockNumber, isNot(0));
 
     // Get the balance of an account (by address or ENS name, if supported by network)
-    final balance = await provider.getBalance("0x0000000000000000000000000000000000000000");
+    final balance =
+        await provider.getBalance("0x0000000000000000000000000000000000000000");
     expect(balance, isA<BigInt>());
 
     // Format the output to something more user-friendly, such as in ether (instead of wei)
