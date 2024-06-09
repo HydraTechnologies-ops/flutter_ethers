@@ -18,3 +18,7 @@
 ## 1.1.0
 
 - Upgraded Flutter SDK to the latest version for enhanced performance and compatibility.
+
+## 1.1.1
+
+- Adjusted formatting for Dart formatter compliance.
